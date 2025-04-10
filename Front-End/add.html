@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add item</title>
+    
+</head>
+<body>
+    <div class="wrapper">
+
+        <form onsubmit="SendBack()">
+            <label for="mobile-name">Enter the Mobile Name:</label>
+            <input type="text" id="mobile-name">
+            <br>
+            <label for="brand-name">Enter the Brand Name:</label>
+            <input type="text" id="brand-name">
+            <br>
+            <label for="ram">Enter the RAM Varient:</label>
+            <input type="text" id="ram">
+            <br>
+            <label for="storage">Enter the Storage space:</label>
+            <input type="text" id="storage">
+            <br>
+            <label for="price">Emter the price:</label>
+            <input type="text" id="price">
+            <br>
+            <label for="qty">Enter the Quantity:</label>
+            <input type="text" id="qty">
+            <br>
+            <label for="color">Enter the Color:</label>
+            <input type="text" id="color">
+            <br>
+            <label for="images">Input the Images</label>
+            <input type="file" id="images" name="images" multiple>
+            <br>
+            <button type="submit">Add</button>
+
+            <div class="images" id="image_display">
+                
+            </div>
+
+        </form>
+
+    </div>
+    <script src="js/add.js"></script>
+</body>
+</html>
